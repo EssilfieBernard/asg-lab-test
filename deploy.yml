@@ -1,0 +1,3 @@
+template-file-path: asg-elb.yaml
+parameters: {}
+tags: {}
