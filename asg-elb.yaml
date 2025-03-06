@@ -237,7 +237,7 @@ Resources:
       LaunchTemplateName: !Sub "MyLaunchTemplate-${LaunchTemplateSuffix}"
       VersionDescription: Initial version
       LaunchTemplateData:
-        ImageId: ami-000089c8d02060104
+        ImageId: ami-094b981da55429bfc
         InstanceType: t2.micro
         KeyName: !Ref KeyName
         SecurityGroupIds:
