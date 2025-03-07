@@ -501,7 +501,7 @@ Resources:
         MinInstancesInService: 1
         MaxBatchSize: 1
         PauseTime: PT5M
-        WaitOnResourceSignals: true
+        WaitOnResourceSignals: false
 
   # Scale Out Policy
   MyScaleOutPolicy:
