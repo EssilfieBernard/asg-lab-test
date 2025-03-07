@@ -510,6 +510,7 @@ Resources:
             fi
 
             echo "User data script completed at $(date)" >> /var/log/cfn-signal-debug.log
+            #improve bash
 
   MyNatGatewayEIP:
     Type: AWS::EC2::EIP
